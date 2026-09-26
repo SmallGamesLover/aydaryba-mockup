@@ -1,20 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title description">
-  <title id="title">Лосось среди волн</title>
-  <desc id="description">Графический лосось в фирменных красном, угольном и белом цветах</desc>
-  <path d="M120 25H569c33 0 49 17 49 49v130c0 73-61 131-137 131H54c-20 0-32-12-32-32V132C22 73 65 25 120 25Z" fill="#e8e2dc"/>
-  <circle cx="173" cy="194" r="73" fill="#f4eee7"/>
-  <circle cx="466" cy="111" r="86" fill="#eee9e3"/>
-  <g fill="none" stroke="#2b2a29" stroke-linecap="round" stroke-width="5" opacity=".73">
-    <path d="M63 146c17-12 32 12 49 0s32 12 49 0"/>
-    <path d="M63 160c17-12 32 12 49 0s32 12 49 0"/>
-    <path d="M63 174c17-12 32 12 49 0s32 12 49 0"/>
-    <path d="M491 146c17-12 32 12 49 0s32 12 49 0"/>
-    <path d="M491 160c17-12 32 12 49 0s32 12 49 0"/>
-    <path d="M491 174c17-12 32 12 49 0s32 12 49 0"/>
+  <title id="title">Лосось выпрыгивает из воды</title>
+  <desc id="description">Графический лосось в фирменных красном, угольном и белом цветах в прыжке над волнами</desc>
+  <!-- Water band: three staggered wave lines, the middle one in brand red. -->
+  <g fill="none" stroke-linecap="round" stroke-width="5">
+    <path d="M40 262q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0" stroke="#2b2a29" opacity=".73"/>
+    <path d="M80 282q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0" stroke="#e31e24"/>
+    <path d="M120 302q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0q20 -12 40 0q20 12 40 0" stroke="#2b2a29" opacity=".73"/>
   </g>
-  <g stroke="#2b2a29" stroke-linejoin="round" stroke-linecap="round">
-    <!-- The single fin rises from the back; the belly has no fin. -->
-    <path d="M301 138c9-28 27-47 55-63-6 24-2 45 13 62Z" fill="#2b2a29" stroke-width="5"/>
+  <!-- Leaping fish: tilted nose-up so the tail tip dips into the top wave near x 163. -->
+  <g stroke="#2b2a29" stroke-linejoin="round" stroke-linecap="round" transform="translate(330 168) rotate(-16) scale(1.02) translate(-325.5 -184)">
+    <!-- The single fin rises from the back and sweeps toward the tail; the belly has no fin. -->
+    <path d="M369 138c-9-28-27-47-55-63 6 24 2 45-13 62Z" fill="#2b2a29" stroke-width="5"/>
     <path d="M218 178c-31-10-55-28-78-48 3 23 11 42 27 54-16 12-24 31-27 53 24-18 48-35 79-43Z" fill="#2b2a29" stroke-width="5"/>
     <path d="M214 181c38-43 81-62 143-61 64 1 119 22 154 64-34 44-90 67-157 67-62 0-105-20-140-61Z" fill="#e31e24" stroke-width="6"/>
     <path d="M214 184c42-36 88-52 145-52 63 0 112 18 145 52-39-17-82-25-145-25-60 0-102 8-145 25Z" fill="#2b2a29" stroke="none"/>
@@ -23,11 +19,11 @@
     <path d="M455 155c-10 14-10 42 0 56" fill="none" stroke="#2b2a29" stroke-width="4"/>
     <circle cx="472" cy="173" r="7" fill="#fff" stroke-width="3"/>
     <circle cx="474" cy="173" r="3" fill="#2b2a29" stroke="none"/>
-    <path d="M491 193c8 3 14 3 20-2" fill="none" stroke-width="3"/>
   </g>
+  <!-- Droplets flying back off the tail as it leaves the water. -->
   <g fill="#e31e24">
-    <circle cx="305" cy="282" r="6"/>
-    <circle cx="324" cy="282" r="6"/>
-    <circle cx="343" cy="282" r="6"/>
+    <circle cx="112" cy="232" r="5"/>
+    <circle cx="96" cy="214" r="3.5"/>
+    <circle cx="122" cy="206" r="3"/>
   </g>
 </svg>
