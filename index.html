@@ -207,6 +207,7 @@
     .retail-hero-copy p:not(.eyebrow){max-width:410px;margin:0;color:var(--text-2);font-size:14px;line-height:1.55}
     .retail-hero .btn{margin-top:21px;min-height:42px;padding:10px 21px;font-size:12px}
     .retail-hero-photo{min-width:0;min-height:354px;position:relative;overflow:hidden;background:radial-gradient(closest-side at 52% 46%,color-mix(in srgb,var(--red) 22%,transparent),transparent)}
+    .retail-hero-photo::before{content:"";position:absolute;left:0;top:13%;bottom:13%;width:7px;opacity:.8;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='64' viewBox='0 0 7 64'%3E%3Cpath d='M3.5 2 1 5l2.5 3L6 5ZM3.5 19 1 22l2.5 3L6 22ZM3.5 36 1 39l2.5 3L6 39ZM3.5 53 1 56l2.5 3L6 56Z' fill='none' stroke='%23E31E24' stroke-width='1'/%3E%3Cpath d='M3.5 10v7m0 10v7m0 10v7m0 10v3' stroke='%23E31E24' stroke-width='1'/%3E%3C/svg%3E") repeat-y}
     .retail-hero-waves{position:absolute;left:4%;bottom:-14px;width:92%;height:auto}
     .retail-hero-salmon{position:absolute;left:50%;top:4%;height:76%;width:auto;transform:translateX(-50%)}
     .retail-catalog{padding-top:34px;padding-bottom:45px}
@@ -244,6 +245,8 @@
       .retail-hero-copy p:not(.eyebrow){font-size:11px}
       .retail-hero .btn{margin-top:13px;min-height:35px;padding:8px 14px;font-size:11px}
       .retail-hero-photo{height:206px;min-height:0}
+      .retail-hero-photo::before{display:none}
+      .retail-hero-salmon{top:9%}
       .retail-catalog{padding-top:25px}
       .retail-head h2{font-size:26px}
       .retail-head p{font-size:10px}
