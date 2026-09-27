@@ -15,10 +15,6 @@
     <path d="M214 181c38-43 81-62 143-61 64 1 119 22 154 64-34 44-90 67-157 67-62 0-105-20-140-61Z" fill="#e31e24" stroke-width="6"/>
     <path d="M214 184c42-36 88-52 145-52 63 0 112 18 145 52-39-17-82-25-145-25-60 0-102 8-145 25Z" fill="#f4efe8" stroke="none"/>
     <path d="M216 191c41 33 84 48 139 48 59 0 109-17 147-50-44 18-92 28-147 28-57 0-101-8-139-26Z" fill="#fff" stroke="none"/>
-    <path d="M274 170c11 15 11 28 0 43m35-51c12 19 12 39 0 61m37-63c12 22 12 44 0 66m38-66c12 19 12 39 0 60m38-53c10 15 10 30 0 45" fill="none" stroke="#fff" stroke-width="5" opacity=".9"/>
-    <path d="M455 155c-10 14-10 42 0 56" fill="none" stroke="#f4efe8" stroke-width="4"/>
-    <circle cx="472" cy="173" r="7" fill="#fff" stroke="#2b2a29" stroke-width="3"/>
-    <circle cx="474" cy="173" r="3" fill="#2b2a29" stroke="none"/>
   </g>
   <!-- Droplets flying back off the tail as it leaves the water. -->
   <g fill="#e31e24">
