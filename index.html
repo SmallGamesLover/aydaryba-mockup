@@ -40,7 +40,7 @@
     .contact strong{display:block;font-size:16px;letter-spacing:.1px}
     .contact button{padding:0;border:0;background:none;color:var(--red-text);text-decoration:underline;text-underline-offset:3px;font-size:11px;margin-top:5px}
     .socials{display:flex;align-items:center;gap:4px;width:148px}
-    .socials button{width:34px;height:34px;flex:none;display:grid;place-items:center;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface);transition:background .16s,border-color .16s}
+    .socials button{width:34px;height:34px;flex:none;padding:0;display:grid;place-items:center;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface);transition:background .16s,border-color .16s}
     .socials button:hover{background:var(--surface-2);border-color:var(--muted)}
     .socials img{display:block;width:19px;height:19px;object-fit:contain}
     .cart{width:130px;display:flex;align-items:center;gap:9px;white-space:nowrap;justify-self:end}
@@ -118,7 +118,7 @@
     .footer-socials{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 10px}
     .footer-socials button{display:flex;align-items:center;gap:8px;padding:3px 0;border:0;background:none;color:var(--text-2);font-size:11px;text-align:left;white-space:nowrap}
     .footer-socials button:hover{color:var(--text)}
-    .footer-socials img{width:17px;height:17px;object-fit:contain}
+    .footer-socials img{flex:none;width:17px;height:17px;object-fit:contain}
     .footer-note{border-top:1px solid var(--line);margin-top:22px;padding-top:12px;color:var(--muted);font-size:10px}
     @media(max-width:990px) and (min-width:701px){
       .header-main{height:auto;grid-template-columns:230px minmax(170px,1fr) 130px;gap:9px 16px;padding:10px 0}
