@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#2B2A29">
+  <meta name="theme-color" content="#171615">
   <title>Ай Да Рыба — рыба и морепродукты для дома и бизнеса</title>
   <link rel="icon" type="image/webp" href="assets/favicon.webp">
   <script>
@@ -17,109 +17,109 @@
     @font-face{font-family:Manrope;src:url('assets/manrope-regular.woff2') format('woff2');font-weight:400;font-display:swap}
     @font-face{font-family:Manrope;src:url('assets/manrope-bold.woff2') format('woff2');font-weight:700 800;font-display:swap}
     @font-face{font-family:Ruslan;src:url('assets/ruslan.woff2') format('woff2');font-weight:400;font-display:swap}
-    :root{--coal:#2B2A29;--red:#E31E24;--red-dark:#B8141A;--paper:#fff;--warm:#F7F6F3;--line:#E4E0DA;--muted:#756F69}
+    :root{--deep:#171615;--bg:#1F1E1D;--surface:#2B2A29;--surface-2:#363432;--line:#423F3C;--line-strong:#5E5954;--text:#F4EFE8;--text-2:#D0C9C1;--muted:#A39B93;--red:#E31E24;--red-dark:#B8141A;--red-text:#FF6166}
     *{box-sizing:border-box}
     html{scroll-behavior:smooth;scroll-padding-top:150px}
-    body{margin:0;color:var(--coal);background:var(--paper);font:14px/1.45 Manrope,Arial,sans-serif}
+    body{margin:0;color:var(--text);background:var(--bg);font:14px/1.45 Manrope,Arial,sans-serif}
     button,input,textarea{font:inherit}
     button{cursor:pointer}
     a{color:inherit;text-decoration:none}
     .wrap{width:min(1320px,calc(100% - 64px));margin-inline:auto}
-    .ornament{height:7px;background-color:var(--coal);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='7' viewBox='0 0 64 7'%3E%3Cpath d='M2 3.5 5 1l3 2.5L5 6ZM19 3.5 22 1l3 2.5L22 6ZM36 3.5 39 1l3 2.5L39 6ZM53 3.5 56 1l3 2.5L56 6Z' fill='none' stroke='%23E31E24' stroke-width='1'/%3E%3Cpath d='M10 3.5h7m10 0h7m10 0h7m10 0h3' stroke='%23E31E24' stroke-width='1'/%3E%3C/svg%3E")}
+    .ornament{height:7px;background-color:var(--deep);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='7' viewBox='0 0 64 7'%3E%3Cpath d='M2 3.5 5 1l3 2.5L5 6ZM19 3.5 22 1l3 2.5L22 6ZM36 3.5 39 1l3 2.5L39 6ZM53 3.5 56 1l3 2.5L56 6Z' fill='none' stroke='%23E31E24' stroke-width='1'/%3E%3Cpath d='M10 3.5h7m10 0h7m10 0h7m10 0h3' stroke='%23E31E24' stroke-width='1'/%3E%3C/svg%3E")}
     .dots{display:inline-flex;gap:4px;vertical-align:middle}
     .dots i{width:5px;height:5px;border-radius:50%;background:var(--red);display:block}
-    .site-header{position:sticky;top:0;z-index:20;background:var(--coal);color:#fff;box-shadow:0 3px 16px #2b2a291c}
+    .site-header{position:sticky;top:0;z-index:20;background:var(--deep);color:var(--text);box-shadow:0 3px 16px #0006}
     .header-main{height:83px;display:grid;grid-template-columns:264px minmax(170px,1fr) 150px 148px 130px;align-items:center;gap:18px}
     .brand{display:block;flex:none;width:264px;line-height:0}
     .brand img{display:block;width:100%;height:auto}
-    .search{height:46px;min-width:0;width:100%;display:flex;align-items:center;gap:10px;background:#454341;border:1px solid #66615d;border-radius:7px;color:#ddd9d4;padding:0 15px}
+    .search{height:46px;min-width:0;width:100%;display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line-strong);border-radius:7px;color:var(--text-2);padding:0 15px}
     .search svg{width:19px;height:19px;flex:none;stroke:currentColor;fill:none;stroke-width:2}
-    .search input{width:100%;min-width:0;border:0;outline:0;background:transparent;color:#fff;font-size:13px}
-    .search input::placeholder{color:#d5d0c9}
+    .search input{width:100%;min-width:0;border:0;outline:0;background:transparent;color:var(--text);font-size:13px}
+    .search input::placeholder{color:var(--text-2)}
     .contact{flex:none;line-height:1.25;white-space:nowrap}
     .contact strong{display:block;font-size:16px;letter-spacing:.1px}
-    .contact button{padding:0;border:0;background:none;color:#f0a4a5;text-decoration:underline;text-underline-offset:3px;font-size:11px;margin-top:5px}
+    .contact button{padding:0;border:0;background:none;color:var(--red-text);text-decoration:underline;text-underline-offset:3px;font-size:11px;margin-top:5px}
     .socials{display:flex;align-items:center;gap:4px;width:148px}
-    .socials button{width:34px;height:34px;flex:none;display:grid;place-items:center;border:1px solid #77716c;border-radius:6px;background:#3b3937;transition:background .16s,border-color .16s}
-    .socials button:hover{background:#55504b;border-color:#b2aaa1}
+    .socials button{width:34px;height:34px;flex:none;display:grid;place-items:center;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface);transition:background .16s,border-color .16s}
+    .socials button:hover{background:var(--surface-2);border-color:var(--muted)}
     .socials img{display:block;width:19px;height:19px;object-fit:contain}
     .cart{width:130px;display:flex;align-items:center;gap:9px;white-space:nowrap;justify-self:end}
-    .cart-icon{width:40px;height:40px;flex:none;position:relative;display:grid;place-items:center;border:1px solid #77716c;border-radius:6px}
-    .cart-icon svg{width:23px;height:23px;fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-    .cart-count{position:absolute;right:-8px;top:-9px;min-width:19px;height:19px;padding:0 4px;display:grid;place-items:center;background:var(--red);border-radius:10px;color:#fff;font-size:11px;font-weight:800}
+    .cart-icon{width:40px;height:40px;flex:none;position:relative;display:grid;place-items:center;border:1px solid var(--line-strong);border-radius:6px}
+    .cart-icon svg{width:23px;height:23px;fill:none;stroke:var(--text);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+    .cart-count{position:absolute;right:-8px;top:-9px;min-width:19px;height:19px;padding:0 4px;display:grid;place-items:center;background:var(--red);border-radius:10px;color:var(--text);font-size:11px;font-weight:800}
     .cart-count.pop{animation:pop .36s ease}
     .cart-copy{min-width:0;font-size:13px;font-weight:800;overflow:hidden;text-overflow:ellipsis}
     @keyframes pop{50%{transform:scale(1.42)}}
-    .conditions{border-bottom:1px solid var(--line);background:#f4f2ee}
+    .conditions{border-bottom:1px solid var(--line);background:var(--surface)}
     .conditions .wrap{min-height:42px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .conditions span{white-space:nowrap;color:#554f49;font-size:12px;font-weight:700}
+    .conditions span{white-space:nowrap;color:var(--text-2);font-size:12px;font-weight:700}
     .conditions span::before{content:"";display:inline-block;width:5px;height:5px;background:var(--red);border-radius:50%;vertical-align:middle;margin-right:9px}
-    .hero{background:var(--warm);border-bottom:1px solid var(--line)}
+    .hero{background:var(--surface);border-bottom:1px solid var(--line)}
     .hero-inner{height:191px;display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden}
     .hero-copy{position:relative;z-index:1;padding-left:23px;border-left:3px solid var(--red)}
-    .hero .eyebrow{margin:0 0 6px;color:var(--red-dark);font-size:10px;letter-spacing:1.7px;text-transform:uppercase;font-weight:800}
+    .hero .eyebrow{margin:0 0 6px;color:var(--red-text);font-size:10px;letter-spacing:1.7px;text-transform:uppercase;font-weight:800}
     h1,h2{font-family:Ruslan,"Noto Serif",Georgia,serif;font-weight:400}
     h1{font-size:38px;line-height:1.12;margin:0 0 6px;letter-spacing:.1px}
-    .hero p:not(.eyebrow){margin:0;color:#5d5751;font-size:13px}
+    .hero p:not(.eyebrow){margin:0;color:var(--text-2);font-size:13px}
     .hero-actions{display:flex;gap:10px;margin-top:16px}
-    .btn{min-height:36px;padding:8px 17px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--red);border-radius:5px;background:var(--red);color:#fff;font-size:12px;font-weight:800;white-space:nowrap;transition:background .16s,border-color .16s,transform .16s}
+    .btn{min-height:36px;padding:8px 17px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--red);border-radius:5px;background:var(--red);color:var(--text);font-size:12px;font-weight:800;white-space:nowrap;transition:background .16s,border-color .16s,transform .16s}
     .btn:hover{background:var(--red-dark);border-color:var(--red-dark);transform:translateY(-1px)}
-    .btn.secondary{background:transparent;color:var(--coal);border-color:#bbb3aa}
-    .btn.secondary:hover{background:#ece7e1;border-color:var(--coal)}
+    .btn.secondary{background:transparent;color:var(--text);border-color:var(--line-strong)}
+    .btn.secondary:hover{background:var(--surface-2);border-color:var(--text-2)}
     .hero-art{height:100%;flex:0 0 clamp(220px,28vw,350px);position:relative;display:grid;place-items:center}
-    .hero-art::before{content:"";position:absolute;width:190px;height:190px;border:1px solid #d6d0c8;left:50%;top:50%;transform:translate(-50%,-50%) rotate(45deg)}
+    .hero-art::before{content:"";position:absolute;width:190px;height:190px;border:1px solid var(--line-strong);left:50%;top:50%;transform:translate(-50%,-50%) rotate(45deg)}
     .hero-art img{width:240px;max-width:90%;height:auto;max-height:180px;position:relative;z-index:1;object-fit:contain}
     .catalog{padding-top:25px;padding-bottom:38px}
     .catalog-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:15px}
     .catalog-head h2,.reviews h2{font-size:29px;line-height:1.2;margin:0}
     .catalog-head p{margin:4px 0 0;color:var(--muted);font-size:12px}
-    .catalog-aside{color:var(--red-dark);font-size:11px;font-weight:800;white-space:nowrap}
+    .catalog-aside{color:var(--red-text);font-size:11px;font-weight:800;white-space:nowrap}
     .filters{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding-bottom:14px}
     .filters::-webkit-scrollbar{display:none}
-    .filter{flex:none;border:1px solid var(--line);background:#fff;color:#5d5751;border-radius:5px;padding:7px 14px;font-size:11px;font-weight:800;white-space:nowrap;transition:background .16s,border-color .16s,color .16s}
-    .filter:hover{border-color:var(--red);color:var(--red-dark);background:#fff7f6}
-    .filter.active{background:var(--coal);border-color:var(--coal);color:#fff}
-    .catalog-table{width:100%;border:1px solid var(--line);border-collapse:separate;border-spacing:0;border-radius:7px;overflow:hidden;font-size:12px}
-    .catalog-table th{text-align:left;background:#f5f3f0;color:#68615b;text-transform:uppercase;letter-spacing:.7px;font-size:10px;padding:10px 12px;font-weight:800;white-space:nowrap}
+    .filter{flex:none;border:1px solid var(--line);background:var(--surface);color:var(--text-2);border-radius:5px;padding:7px 14px;font-size:11px;font-weight:800;white-space:nowrap;transition:background .16s,border-color .16s,color .16s}
+    .filter:hover{border-color:var(--red);color:var(--red-text);background:var(--surface-2)}
+    .filter.active{background:var(--text);border-color:var(--text);color:var(--bg)}
+    .catalog-table{width:100%;border:1px solid var(--line);border-collapse:separate;border-spacing:0;border-radius:7px;background:var(--surface);overflow:hidden;font-size:12px}
+    .catalog-table th{text-align:left;background:var(--surface-2);color:var(--muted);text-transform:uppercase;letter-spacing:.7px;font-size:10px;padding:10px 12px;font-weight:800;white-space:nowrap}
     .catalog-table td{padding:14px 12px;border-top:1px solid var(--line);vertical-align:middle}
     .catalog-table tbody tr{transition:background .16s}
-    .catalog-table tbody tr:hover{background:#fff8f7}
+    .catalog-table tbody tr:hover{background:var(--surface-2)}
     .catalog-table th:first-child,.catalog-table td:first-child{padding-left:19px}
     .catalog-table th:last-child,.catalog-table td:last-child{padding-right:15px}
-    .sku{color:#847c75;font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap}
+    .sku{color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap}
     .product{display:flex;align-items:center;gap:11px;min-width:235px}
-    .thumb{width:45px;height:39px;flex:none;display:grid;place-items:center;background:#f1eeea;border:1px solid #e6e0da;border-radius:4px;overflow:hidden}
-    .thumb img{display:block;width:33px;height:26px;object-fit:contain}
+    .thumb{width:45px;height:39px;flex:none;display:grid;place-items:center;background:var(--bg);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+    .thumb img{display:block;width:34px;height:34px;object-fit:contain}
     .product b{display:block;font-size:12px;line-height:1.25}
     .product small{display:block;margin-top:3px;color:var(--muted);font-size:10px}
-    .pack{color:#605a54;white-space:nowrap}
+    .pack{color:var(--text-2);white-space:nowrap}
     .price{font-size:13px;font-weight:800;white-space:nowrap;font-variant-numeric:tabular-nums}
-    .stock{font-size:11px;color:#5d5751;white-space:nowrap}
+    .stock{font-size:11px;color:var(--text-2);white-space:nowrap}
     .stock::before{content:"";display:inline-block;width:6px;height:6px;background:var(--red);border-radius:50%;vertical-align:middle;margin-right:7px}
-    .stepper{display:inline-flex;align-items:center;height:30px;border:1px solid #d6d0c9;border-radius:5px;overflow:hidden;white-space:nowrap}
-    .stepper button{width:28px;height:28px;border:0;background:#fff;color:var(--coal);font-size:17px;line-height:1}
-    .stepper button:hover{background:#f2e9e6;color:var(--red-dark)}
+    .stepper{display:inline-flex;align-items:center;height:30px;border:1px solid var(--line-strong);border-radius:5px;overflow:hidden;white-space:nowrap}
+    .stepper button{width:28px;height:28px;border:0;background:var(--surface);color:var(--text);font-size:17px;line-height:1}
+    .stepper button:hover{background:var(--surface-2);color:var(--red-text)}
     .stepper output{min-width:27px;text-align:center;font-size:11px;font-weight:800;font-variant-numeric:tabular-nums}
-    .add{border:1px solid var(--red);background:#fff;color:var(--red-dark);border-radius:5px;padding:7px 11px;font-size:11px;font-weight:800;white-space:nowrap;transition:background .16s,color .16s}
-    .add:hover{background:var(--red);color:#fff}
-    .reviews{background:var(--warm);padding:31px 0 38px}
+    .add{border:1px solid var(--red);background:transparent;color:var(--red-text);border-radius:5px;padding:7px 11px;font-size:11px;font-weight:800;white-space:nowrap;transition:background .16s,color .16s}
+    .add:hover{background:var(--red);color:var(--text)}
+    .reviews{background:var(--surface);padding:31px 0 38px}
     .reviews-head{display:flex;align-items:center;gap:16px;margin-bottom:15px}
     .review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
-    .review{background:#fff;border:1px solid var(--line);border-radius:6px;padding:15px 17px}
-    .review p{margin:0 0 11px;font-size:12px;line-height:1.5;color:#4c4742;min-height:55px}
+    .review{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:15px 17px}
+    .review p{margin:0 0 11px;font-size:12px;line-height:1.5;color:var(--text-2);min-height:55px}
     .review b{font-size:11px}
     .review small{display:block;color:var(--muted);font-size:10px;margin-top:2px}
-    .footer{background:var(--coal);color:#fff;padding:28px 0 20px}
+    .footer{background:var(--deep);color:var(--text);padding:28px 0 20px}
     .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:35px}
     .footer-brand{width:235px;display:block;line-height:0;margin:-4px 0 9px}
     .footer-brand img{width:100%;height:auto}
     .footer h3{margin:0 0 10px;font-size:12px}
-    .footer p,.footer a:not(.footer-brand){display:block;margin:5px 0;color:#d0c9c1;font-size:11px}
+    .footer p,.footer a:not(.footer-brand){display:block;margin:5px 0;color:var(--text-2);font-size:11px}
     .footer-socials{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 10px}
-    .footer-socials button{display:flex;align-items:center;gap:8px;padding:3px 0;border:0;background:none;color:#d0c9c1;font-size:11px;text-align:left;white-space:nowrap}
-    .footer-socials button:hover{color:#fff}
+    .footer-socials button{display:flex;align-items:center;gap:8px;padding:3px 0;border:0;background:none;color:var(--text-2);font-size:11px;text-align:left;white-space:nowrap}
+    .footer-socials button:hover{color:var(--text)}
     .footer-socials img{width:17px;height:17px;object-fit:contain}
-    .footer-note{border-top:1px solid #57534f;margin-top:22px;padding-top:12px;color:#b1aaa2;font-size:10px}
+    .footer-note{border-top:1px solid var(--line);margin-top:22px;padding-top:12px;color:var(--muted);font-size:10px}
     @media(max-width:990px) and (min-width:701px){
       .header-main{height:auto;grid-template-columns:230px minmax(170px,1fr) 130px;gap:9px 16px;padding:10px 0}
       .brand{grid-column:1;grid-row:1;width:230px}
@@ -164,7 +164,7 @@
       .catalog-table{display:block;border:0;overflow:visible}
       .catalog-table thead{display:none}
       .catalog-table tbody{display:grid;gap:9px}
-      .catalog-table tbody tr{display:grid;grid-template-columns:1fr auto;gap:5px 8px;padding:15px 12px;border:1px solid var(--line);border-radius:6px;background:#fff}
+      .catalog-table tbody tr{display:grid;grid-template-columns:1fr auto;gap:5px 8px;padding:15px 12px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
       .catalog-table td{padding:0!important;border:0;vertical-align:middle}
       .sku{grid-column:1/3;order:0;font-size:10px}
       .product-cell{grid-column:1/3;order:1}
@@ -188,25 +188,25 @@
     }
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
     html[data-mode="retail"] .wholesale-only,html[data-mode="wholesale"] .retail-only{display:none!important}
-    .mode-bar{background:#fff;border-bottom:1px solid var(--line)}
+    .mode-bar{background:var(--surface);border-bottom:1px solid var(--line)}
     .mode-inner{min-height:48px;display:flex;align-items:center;gap:22px}
-    .mode-switch{display:inline-flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:7px;background:var(--warm);flex:none}
-    .mode-link{display:block;padding:7px 15px;border-radius:4px;color:#5d5751;font-size:11px;font-weight:800;white-space:nowrap;transition:background .16s,color .16s}
-    .mode-link:hover{color:var(--red-dark);background:#f0e9e3}
-    .mode-link[aria-current="page"]{background:var(--coal);color:#fff;box-shadow:0 1px 4px #2b2a2924}
-    .mode-tagline{color:#736b63;font-size:11px}
-    .retail-perks{background:#f8f5f0;border-bottom:1px solid var(--line)}
+    .mode-switch{display:inline-flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:7px;background:var(--bg);flex:none}
+    .mode-link{display:block;padding:7px 15px;border-radius:4px;color:var(--text-2);font-size:11px;font-weight:800;white-space:nowrap;transition:background .16s,color .16s}
+    .mode-link:hover{color:var(--red-text);background:var(--surface-2)}
+    .mode-link[aria-current="page"]{background:var(--text);color:var(--bg);box-shadow:0 1px 4px #0006}
+    .mode-tagline{color:var(--muted);font-size:11px}
+    .retail-perks{background:var(--surface);border-bottom:1px solid var(--line)}
     .retail-perks .wrap{min-height:38px;display:flex;align-items:center;justify-content:space-between;gap:15px}
-    .retail-perks span{font-size:11px;font-weight:700;color:#64594f;white-space:nowrap}
+    .retail-perks span{font-size:11px;font-weight:700;color:var(--text-2);white-space:nowrap}
     .retail-perks span::before{content:"";display:inline-block;width:5px;height:5px;margin-right:9px;vertical-align:middle;border-radius:50%;background:var(--red)}
-    .retail-hero{background:#fff;padding:18px 0 0}
-    .retail-hero-inner{min-height:354px;display:grid;grid-template-columns:42% 58%;overflow:hidden;border-radius:9px;background:#f4eee7}
+    .retail-hero{background:var(--bg);padding:18px 0 0}
+    .retail-hero-inner{min-height:354px;display:grid;grid-template-columns:42% 58%;overflow:hidden;border-radius:9px;background:var(--surface)}
     .retail-hero-copy{padding:34px 20px 34px clamp(20px,3.3vw,48px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;position:relative;z-index:1}
-    .retail-hero-copy .eyebrow{margin:0 0 13px;color:var(--red-dark);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:800}
+    .retail-hero-copy .eyebrow{margin:0 0 13px;color:var(--red-text);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:800}
     .retail-hero h1{max-width:500px;font-size:clamp(31px,3vw,43px);line-height:1.08;margin:0 0 13px}
-    .retail-hero-copy p:not(.eyebrow){max-width:410px;margin:0;color:#5f554d;font-size:14px;line-height:1.55}
+    .retail-hero-copy p:not(.eyebrow){max-width:410px;margin:0;color:var(--text-2);font-size:14px;line-height:1.55}
     .retail-hero .btn{margin-top:21px;min-height:42px;padding:10px 21px;font-size:12px}
-    .retail-hero-photo{min-width:0;min-height:354px;position:relative;overflow:hidden;background:#f4eee7}
+    .retail-hero-photo{min-width:0;min-height:354px;position:relative;overflow:hidden;background:var(--surface)}
     .retail-hero-photo img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center}
     .retail-catalog{padding-top:34px;padding-bottom:45px}
     .retail-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:19px}
@@ -214,19 +214,19 @@
     .retail-head p{margin:6px 0 0;color:var(--muted);font-size:12px}
     .retail-head .dots{margin-bottom:7px}
     .retail-grid{max-width:1200px;margin-inline:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
-    .retail-card{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#fff;transition:box-shadow .18s,transform .18s}
-    .retail-card:hover{box-shadow:0 9px 26px #2b2a2915;transform:translateY(-2px)}
-    .retail-card-photo{display:block;width:100%;height:272px;object-fit:cover;background:#eee9e1}
+    .retail-card{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:8px;background:var(--surface);transition:box-shadow .18s,transform .18s}
+    .retail-card:hover{box-shadow:0 9px 26px #0008;transform:translateY(-2px)}
+    .retail-card-photo{display:block;width:100%;height:272px;object-fit:cover;background:var(--surface-2)}
     .retail-card-body{padding:16px 18px 18px}
     .retail-card-body h3{margin:0 0 6px;font-size:17px;line-height:1.28}
     .retail-card-body p{min-height:34px;margin:0 0 13px;color:var(--muted);font-size:11px}
     .retail-card-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px}
     .retail-price{font-size:20px;font-weight:800;white-space:nowrap;font-variant-numeric:tabular-nums}
     .retail-card .btn{padding:8px 14px;min-height:35px;font-size:11px}
-    .retail-after{padding:27px 0;background:var(--coal);color:#fff}
+    .retail-after{padding:27px 0;background:var(--deep);color:var(--text)}
     .retail-after .wrap{display:flex;align-items:center;justify-content:space-between;gap:25px}
     .retail-after h2{font-size:27px;margin:0}
-    .retail-after p{margin:4px 0 0;color:#d0c9c1;font-size:11px}
+    .retail-after p{margin:4px 0 0;color:var(--text-2);font-size:11px}
     .retail-after .btn{flex:none}
     @media(max-width:700px){
       html{scroll-padding-top:200px}
@@ -282,21 +282,21 @@
       <article class="retail-card" data-price="390"><img class="retail-card-photo" src="assets/retail-mussels.webp" width="760" height="760" alt="Мидии в створках в светлой миске" loading="lazy"><div class="retail-card-body"><h3>Мидии в створках</h3><p>Для тёплого вечера · упаковка 500 г</p><div class="retail-card-bottom"><strong class="retail-price">390 ₽</strong><button class="btn" type="button" data-action="add" aria-label="Добавить мидии в корзину">В корзину</button></div></div></article>
     </div></section>
     <div class="conditions wholesale-only"><div class="wrap"><span>Заказ от 15 000 ₽</span><span>Доставка по городу и области</span><span>Оплата при получении или по счёту</span><span>Документы для юрлиц</span></div></div>
-    <section class="hero wholesale-only"><div class="wrap hero-inner"><div class="hero-copy"><p class="eyebrow">Оптовые поставки для магазинов и HoReCa</p><h1>Ай да рыба — к вашему столу!</h1><p>Нужное найдётся быстро: выбирайте, указывайте количество, отправляйте заявку.</p><div class="hero-actions"><a class="btn" href="#catalog">Каталог</a><button class="btn secondary" type="button">Скачать прайс-лист</button></div></div><div class="hero-art" aria-hidden="true"><img src="assets/salmon-hero.webp" width="560" height="421" alt=""></div></div></section>
+    <section class="hero wholesale-only"><div class="wrap hero-inner"><div class="hero-copy"><p class="eyebrow">Оптовые поставки для магазинов и HoReCa</p><h1>Ай да рыба — к вашему столу!</h1><p>Нужное найдётся быстро: выбирайте, указывайте количество, отправляйте заявку.</p><div class="hero-actions"><a class="btn" href="#catalog">Каталог</a><button class="btn secondary" type="button">Скачать прайс-лист</button></div></div><div class="hero-art" aria-hidden="true"><img src="assets/salmon-medallion.webp" width="360" height="360" alt=""></div></div></section>
     <section class="catalog wrap wholesale-only" id="catalog"><div class="catalog-head"><div><h2>Ай да выбор!</h2><p>Популярные позиции · цены и наличие показаны для примера</p></div><span class="catalog-aside"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> &nbsp; Быстрый заказ по каталогу</span></div>
       <div class="filters" aria-label="Категории товаров"><button class="filter active" type="button">Все товары</button><button class="filter" type="button">Охлаждённая рыба</button><button class="filter" type="button">Замороженная рыба</button><button class="filter" type="button">Морепродукты</button><button class="filter" type="button">Икра</button><button class="filter" type="button">Копчёное</button></div>
       <table class="catalog-table"><thead><tr><th>Артикул</th><th>Товар</th><th>Фасовка</th><th>Цена</th><th>Наличие</th><th>Кол-во</th><th></th></tr></thead><tbody>
-        <tr data-price="990"><td class="sku">РБ-1042</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Форель охлаждённая</b><small>Россия, Карелия</small></span></div></td><td class="pack-cell pack">300–400 г</td><td class="price-cell price">990 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество форели">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество форели">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="1250"><td class="sku">РБ-1051</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Сёмга филе на коже</b><small>Норвегия</small></span></div></td><td class="pack-cell pack">Пласт 1–2 кг</td><td class="price-cell price">1 250 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество сёмги">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество сёмги">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="740"><td class="sku">РБ-2031</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Кета потрошёная б/г</b><small>Россия, Дальний Восток</small></span></div></td><td class="pack-cell pack">Рыба 2–3 кг</td><td class="price-cell price">740 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество кеты">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество кеты">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="840"><td class="sku">РБ-2094</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Треска филе без кожи</b><small>Россия, Мурманск</small></span></div></td><td class="pack-cell pack">Пласт 1–2 кг</td><td class="price-cell price">840 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество трески">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество трески">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="1190"><td class="sku">РБ-2102</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Дорадо охлаждённая</b><small>Турция</small></span></div></td><td class="pack-cell pack">400–600 г</td><td class="price-cell price">1 190 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество дорадо">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество дорадо">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="1420"><td class="sku">МП-3015</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Креветки северные 90/120</b><small>Россия, Баренцево море</small></span></div></td><td class="pack-cell pack">Пакет 1 кг</td><td class="price-cell price">1 420 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество креветок">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество креветок">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="520"><td class="sku">МП-3040</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Мидии в створках</b><small>Чили</small></span></div></td><td class="pack-cell pack">Пакет 1 кг</td><td class="price-cell price">520 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество мидий">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество мидий">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="690"><td class="sku">МП-3072</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Кальмар тушка очищенная</b><small>Россия, Дальний Восток</small></span></div></td><td class="pack-cell pack">Короб 10 кг</td><td class="price-cell price">690 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество кальмара">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество кальмара">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="3490"><td class="sku">ИК-4011</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Икра горбуши зернистая</b><small>Россия, Камчатка</small></span></div></td><td class="pack-cell pack">Банка 500 г</td><td class="price-cell price">3 490 ₽/шт</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество икры">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество икры">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="870"><td class="sku">КП-5018</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Горбуша холодного копчения</b><small>Россия</small></span></div></td><td class="pack-cell pack">Вакуум 1 кг</td><td class="price-cell price">870 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество горбуши">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество горбуши">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
-        <tr data-price="460"><td class="sku">РБ-2170</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-mark.webp" alt=""></span><span><b>Минтай филе замороженное</b><small>Россия, Дальний Восток</small></span></div></td><td class="pack-cell pack">Короб 10 кг</td><td class="price-cell price">460 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество минтая">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество минтая">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="990"><td class="sku">РБ-1042</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Форель охлаждённая</b><small>Россия, Карелия</small></span></div></td><td class="pack-cell pack">300–400 г</td><td class="price-cell price">990 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество форели">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество форели">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="1250"><td class="sku">РБ-1051</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Сёмга филе на коже</b><small>Норвегия</small></span></div></td><td class="pack-cell pack">Пласт 1–2 кг</td><td class="price-cell price">1 250 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество сёмги">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество сёмги">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="740"><td class="sku">РБ-2031</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Кета потрошёная б/г</b><small>Россия, Дальний Восток</small></span></div></td><td class="pack-cell pack">Рыба 2–3 кг</td><td class="price-cell price">740 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество кеты">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество кеты">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="840"><td class="sku">РБ-2094</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Треска филе без кожи</b><small>Россия, Мурманск</small></span></div></td><td class="pack-cell pack">Пласт 1–2 кг</td><td class="price-cell price">840 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество трески">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество трески">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="1190"><td class="sku">РБ-2102</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Дорадо охлаждённая</b><small>Турция</small></span></div></td><td class="pack-cell pack">400–600 г</td><td class="price-cell price">1 190 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество дорадо">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество дорадо">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="1420"><td class="sku">МП-3015</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Креветки северные 90/120</b><small>Россия, Баренцево море</small></span></div></td><td class="pack-cell pack">Пакет 1 кг</td><td class="price-cell price">1 420 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество креветок">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество креветок">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="520"><td class="sku">МП-3040</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Мидии в створках</b><small>Чили</small></span></div></td><td class="pack-cell pack">Пакет 1 кг</td><td class="price-cell price">520 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество мидий">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество мидий">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="690"><td class="sku">МП-3072</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Кальмар тушка очищенная</b><small>Россия, Дальний Восток</small></span></div></td><td class="pack-cell pack">Короб 10 кг</td><td class="price-cell price">690 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество кальмара">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество кальмара">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="3490"><td class="sku">ИК-4011</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Икра горбуши зернистая</b><small>Россия, Камчатка</small></span></div></td><td class="pack-cell pack">Банка 500 г</td><td class="price-cell price">3 490 ₽/шт</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество икры">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество икры">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="870"><td class="sku">КП-5018</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Горбуша холодного копчения</b><small>Россия</small></span></div></td><td class="pack-cell pack">Вакуум 1 кг</td><td class="price-cell price">870 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество горбуши">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество горбуши">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
+        <tr data-price="460"><td class="sku">РБ-2170</td><td class="product-cell"><div class="product"><span class="thumb"><img src="assets/salmon-medallion.webp" alt=""></span><span><b>Минтай филе замороженное</b><small>Россия, Дальний Восток</small></span></div></td><td class="pack-cell pack">Короб 10 кг</td><td class="price-cell price">460 ₽/кг</td><td class="stock-cell stock">В наличии</td><td class="qty-cell"><span class="stepper"><button type="button" data-action="minus" aria-label="Уменьшить количество минтая">−</button><output>1</output><button type="button" data-action="plus" aria-label="Увеличить количество минтая">+</button></span></td><td class="add-cell"><button class="add" type="button" data-action="add">В корзину</button></td></tr>
       </tbody></table>
     </section>
     <div class="ornament wholesale-only" aria-hidden="true"></div>
