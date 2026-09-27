@@ -208,6 +208,8 @@
     .retail-hero .btn{margin-top:21px;min-height:42px;padding:10px 21px;font-size:12px}
     .retail-hero-photo{min-width:0;min-height:354px;position:relative;overflow:hidden;background:radial-gradient(closest-side at 52% 46%,color-mix(in srgb,var(--red) 22%,transparent),transparent)}
     .retail-hero-photo::before{content:"";position:absolute;left:0;top:13%;bottom:13%;width:7px;opacity:.8;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='64' viewBox='0 0 7 64'%3E%3Cpath d='M3.5 2 1 5l2.5 3L6 5ZM3.5 19 1 22l2.5 3L6 22ZM3.5 36 1 39l2.5 3L6 39ZM3.5 53 1 56l2.5 3L6 56Z' fill='none' stroke='%23E31E24' stroke-width='1'/%3E%3Cpath d='M3.5 10v7m0 10v7m0 10v7m0 10v3' stroke='%23E31E24' stroke-width='1'/%3E%3C/svg%3E") repeat-y}
+    .retail-hero-deco{position:absolute;left:50%;top:4%;height:76%;aspect-ratio:660/538;transform:translateX(-50%);overflow:visible;fill:var(--red)}
+    .retail-hero-deco .bubbles{fill:var(--text)}
     .retail-hero-waves{position:absolute;left:4%;bottom:-14px;width:92%;height:auto}
     .retail-hero-salmon{position:absolute;left:50%;top:4%;height:76%;width:auto;transform:translateX(-50%)}
     .retail-catalog{padding-top:34px;padding-bottom:45px}
@@ -246,7 +248,7 @@
       .retail-hero .btn{margin-top:13px;min-height:35px;padding:8px 14px;font-size:11px}
       .retail-hero-photo{height:206px;min-height:0}
       .retail-hero-photo::before{display:none}
-      .retail-hero-salmon{top:9%}
+      .retail-hero-salmon,.retail-hero-deco{top:9%}
       .retail-catalog{padding-top:25px}
       .retail-head h2{font-size:26px}
       .retail-head p{font-size:10px}
@@ -275,7 +277,7 @@
   </header>
   <main id="top">
     <div class="retail-perks retail-only"><div class="wrap"><span>Для вкусного ужина</span><span>Удобные небольшие фасовки</span><span>Выбирайте любимое без минимального заказа</span></div></div>
-    <section class="retail-hero retail-only"><div class="wrap retail-hero-inner"><div class="retail-hero-copy"><p class="eyebrow">Ай да вкусно <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span></p><h1>Рыба, ради которой хочется домой</h1><p>Сочная сёмга, нежная форель, морепродукты и икра — выбирайте то, что порадует сегодня.</p><a class="btn" href="#retail-catalog">Перейти к каталогу</a></div><div class="retail-hero-photo"><img class="retail-hero-waves" src="assets/retail-hero-waves.svg" width="640" height="200" alt=""><img class="retail-hero-salmon" src="assets/retail-hero-salmon.webp" width="660" height="538" alt="Фирменный лосось в прыжке над волнами"></div></div></section>
+    <section class="retail-hero retail-only"><div class="wrap retail-hero-inner"><div class="retail-hero-copy"><p class="eyebrow">Ай да вкусно <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span></p><h1>Рыба, ради которой хочется домой</h1><p>Сочная сёмга, нежная форель, морепродукты и икра — выбирайте то, что порадует сегодня.</p><a class="btn" href="#retail-catalog">Перейти к каталогу</a></div><div class="retail-hero-photo"><img class="retail-hero-waves" src="assets/retail-hero-waves.svg" width="640" height="200" alt=""><svg class="retail-hero-deco" viewBox="0 0 660 538" aria-hidden="true"><g class="bubbles"><circle cx="-40" cy="360" r="17"/><circle cx="-78" cy="296" r="11"/><circle cx="-52" cy="240" r="7"/></g><circle cx="712" cy="470" r="26"/><circle cx="772" cy="416" r="18"/><circle cx="790" cy="486" r="13"/></svg><img class="retail-hero-salmon" src="assets/retail-hero-salmon.webp" width="660" height="538" alt="Фирменный лосось в прыжке над волнами"></div></div></section>
     <section class="retail-catalog retail-only wrap" id="retail-catalog"><div class="retail-head"><div><h2>Наши хиты</h2><p>Популярные товары и предложения · цены за упаковку показаны для примера</p></div><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span></div><div class="retail-grid">
       <article class="retail-card" data-price="690"><img class="retail-card-photo" src="assets/retail-salmon.webp" width="760" height="760" alt="Свежее филе сёмги на блюде"><div class="retail-card-body"><h3>Сёмга, филе на коже</h3><p>Нежное филе · упаковка 400 г</p><div class="retail-card-bottom"><strong class="retail-price">690 ₽</strong><button class="btn" type="button" data-action="add" aria-label="Добавить филе сёмги в корзину">В корзину</button></div></div></article>
       <article class="retail-card" data-price="890"><img class="retail-card-photo" src="assets/retail-trout.webp" width="760" height="633" alt="Свежая целая форель на блюде"><div class="retail-card-body"><h3>Форель радужная</h3><p>Охлаждённая · рыба около 900 г</p><div class="retail-card-bottom"><strong class="retail-price">890 ₽</strong><button class="btn" type="button" data-action="add" aria-label="Добавить форель в корзину">В корзину</button></div></div></article>
